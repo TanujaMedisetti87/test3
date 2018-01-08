@@ -15,4 +15,3 @@ addons:
     
 script:
   - sonar-scanner
-  - npm test
