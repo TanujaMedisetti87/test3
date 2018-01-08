@@ -18,8 +18,6 @@ script:
 deploy:
       provider: s3
       #revision_type: github
-      access_key_id: "AKIAJHFKXCIJV554SQDA"
-      secret_access_key: "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"
       #application: "resumeTrial-master"
       #deployment_group: "The Deployment group associated with the codedeploy application"
       bucket: "S3 Bucket"
