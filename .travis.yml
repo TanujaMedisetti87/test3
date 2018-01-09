@@ -15,10 +15,4 @@ addons:
     
 script:
   - sonar-scanner
-deploy:
-      provider: s3
-      #revision_type: github
-      #application: "resumeTrial-master"
-      #deployment_group: "The Deployment group associated with the codedeploy application"
-      bucket: "S3 Bucket"
-      region: us-east-2b
+
